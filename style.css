@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f39c12;
+    font-family: sans-serif;    
+}
+.pokemonnavbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logosec{
+    text-align: center;
+}
+.logosec img{
+    width:200px;
+}
+a{
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+    color: black;
+    transition:0.3s all ease-in-out;    
+}
+    a:hover{
+        font-size: 25px;
+    transition:0.3s all ease-in-out;    
+}
+#app-container{
+    position: relative;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 40px 10px;
+    margin: 0px auto;
+}
+#firstpokemon-container,#secondpokemon-container{
+    padding: 10px;
+}
+#pokemon-info,#scnd-pokemon-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input,button{
+    height: 30px;
+    outline: none;
+}
+p{
+    line-height: 20px;
+    font-size: 20px;
+    color: #8e44ad;
+    font-weight: bolder;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+input{
+    padding: 0px 60px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 0px 20px;
+    background-color: #8e44ad;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+#compare{
+    margin-top: 10px;
+}
+#checkresult{
+    position: absolute;
+    bottom: 6%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    padding: 0px 20px;
+    background-color: #8e44ad;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;    
+    width: 80%;
+}
+/* winnerbox */
+#winnerbox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 28%;
+    left: 21%;
+    transform: translate(-50%,50%);
+    background-color: #8e44ad;
+    color: white;
+    padding:  50px 10px;
+    border-radius: 20px;
+    transform: scale(0);
+    transition: all 0.3s;
+}
+.imgcircle{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 11px double white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#winnerimg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#winnerannouce{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#winnerwindowclose{
+    margin-top: 20px;
+    padding: 0px 20px;
+    background-color: white;
+    color: #8e44ad;
+    font-size: 18px;
+}
+#vs-sign{
+    text-align: center;
+    font-size: 2em;
+    color: #8e44ad;
+}
+footer{
+
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    font-size: 13px;
+}
+footer h3{
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+@media only screen and (max-width: 600px) {
+
+    .pokemonnavbar{
+        justify-content: center;    
+    }
+    .pokemonnavbar a{
+        font-size: 18px;
+    }
+        .logosec img{
+            width:120px;
+        }
+    
+        #app-container{
+            width: 90%;
+            padding: 40px 5px;
+            display: block;
+        }
+        .pokemonimg{
+            width: 150px;
+            height: 150px;
+        }
+        #winnerbox{
+            width: 80%;
+            left: 10%;
+        }
+    input{
+        width: 80%;
+        padding: 0px 30px 0px 0px;    
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    }
+    @media only screen and (min-width: 600px) {
+        #app-container{
+            width: 90%;
+            padding: 40px 5px;
+            display: block;
+        }
+        .pokemonimg{
+            width: 150px;
+            height: 150px;
+        }
+        #winnerbox{
+            width: 80%;
+            left: 10%;
+        }
+    input{
+        width: 80%;
+        padding: 0px 30px 0px 0px;    
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    }
+    @media only screen and (min-width: 768px) {
+        #app-container{
+      text-align: center;
+        }
+        .pokemonimg{
+            width: 200px;
+            height: 200px;
+        }
+    
+    
+    #pokemon-info,#scnd-pokemon-info{
+      text-align: start;
+    }
+        input{
+            width: 50%;
+        }
+    }
+    @media only screen and (min-width: 992px) {
+        #app-container{
+            width: 60%;
+              }
+    }
+    @media only screen and (min-width: 1200px) {
+        #app-container{
+            display: flex;
+            padding: 40px 15px;
+              }
+              #winnerbox{
+                top: 6%;
+              }
+    }
